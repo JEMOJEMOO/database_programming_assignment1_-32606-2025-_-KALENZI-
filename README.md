@@ -4,7 +4,7 @@ Database Programming Assignment I
 
 Student Information
 
-Student Name: Kalenzi James
+Student Name: KALENZI JAMES
 
 Student ID: 32606/2025
 
