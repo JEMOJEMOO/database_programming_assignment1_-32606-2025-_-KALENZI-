@@ -5,8 +5,11 @@ Database Programming Assignment I
 Student Information
 
 Student Name: Kalenzi James
+
 Student ID: 32606/2025
+
 Course: DPR400210 - Database Programming
+
 Instructor: Eric Maniraguha
 
 ---
