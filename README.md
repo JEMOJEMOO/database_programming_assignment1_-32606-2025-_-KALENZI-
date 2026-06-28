@@ -160,32 +160,162 @@ The project demonstrates the following SQL Window Functions:
 Ranking Functions
 
  ROW_NUMBER()
+ 
  RANK()
+ 
  DENSE_RANK()
+ 
  PERCENT_RANK()
+ 
 
 Aggregate Window Functions
 
  SUM() OVER()
+ 
  AVG() OVER()
+ 
  MIN() OVER()
+ 
  MAX() OVER()
+ 
 
  Navigation Functions
+ 
 
  LAG()
+ 
  LEAD()
+ 
 
 Distribution Functions
 
  NTILE()
+ 
  CUME_DIST()
+ 
 
 Each function includes:
 
+
  SQL query
+ 
  Screenshot of the output
+ 
+ 
  Interpretation of the results
+
+ SIMPLE CTEs:
+
+ ----Display all products whose stock quantity is less than 50.
+
+ MULTIPLE CTEs:
+
+ ----Find suppliers who supply products with low stock.
+
+
+ RECURCIVE CTEs:
+
+
+ ----Generate order numbers from 1 to 10.
+
+
+ CTE WITH AGGREGATION:
+
+
+ ----Calculate the total quantity ordered for each product.
+
+
+ CTE Combined with JOIN Operations:
+
+
+ ----Display each product together with its supplier and total quantity ordered.
+
+
+ INTERPRETATION FOR SQL WINDOW FUNCTIONS:
+
+ROW_NUMBER():
+
+----Every product receives a unique sequential number according to price.
+
+
+RANK():
+
+
+----Products with the same price receive the same rank, and the next rank is skipped.
+
+
+DENSE_RANK():
+
+----Unlike RANK(), no numbers are skipped after ties.
+
+
+PERCENT_RANK():
+
+
+
+----Shows each product's relative position between the lowest and highest prices.
+
+
+
+SUM() OVER():
+
+
+----Shows how total orders increase over time.
+
+
+AVG() OVER():
+
+
+
+----Every row displays the overall average order quantity.
+
+
+
+MIN() OVER():
+
+
+----Displays the smallest quantity ordered across all orders
+
+
+MAX() OVER():
+
+
+
+----Displays the largest order quantity for comparison
+
+
+
+LAG():
+
+
+----Helps identify increases or decreases compared with the previous order.
+
+
+LEAD():
+
+
+
+----Allows comparison with future orders for forecasting.
+
+
+
+NTILE():
+
+
+----Products are grouped into four equal-sized categories based on price, which is useful for pricing analysis.
+
+
+
+
+CUME_DIST():
+
+
+
+Shows the proportion of products priced at or below each product's price. For example, a value of 0.80 means that 80% of the products have a price less than or equal to that product's price
+
+
+
+
 
 
 
