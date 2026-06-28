@@ -20,7 +20,7 @@ The Inventory Management System helps a business organize and manage information
 
 
 
- Business Problem
+### Business Problem
 
 Inventory management is essential for businesses that buy and sell products. Without a well-designed database, organizations may experience stock shortages, duplicate records, poor supplier management, and inaccurate sales reports.
 
@@ -28,7 +28,7 @@ This project develops an Inventory Management System using Oracle SQL. The syste
 
 ---
 
- Database Schema
+ ### Database Schema
 
 The database contains four related tables.
 
@@ -87,7 +87,7 @@ Stores customer purchase transactions.
 | order_date       | Date of purchase             |
 
 
-ER Diagram
+### ER Diagram
 
 Insert the ER Diagram image in the ER_Diagram folder and embed it here.
 
@@ -132,7 +132,7 @@ phone_number
 email
 
 
-CTE Implementations
+### CTE Implementations
 
 The following Common Table Expressions were implemented:
 
@@ -160,7 +160,7 @@ Each query was executed successfully and accompanied by a screenshot and a brief
 
 
 
-Window Function Implementations
+### Window Function Implementations
 
 The project demonstrates the following SQL Window Functions:
 Ranking Functions
@@ -208,7 +208,7 @@ Each function includes:
  Screenshot of the output
  
  
- Interpretation of the results
+### Interpretation of the results
 
  SIMPLE CTEs:
 
@@ -325,7 +325,7 @@ Shows the proportion of products priced at or below each product's price. For ex
 
 
 
-Analysis and Findings
+### Analysis and Findings
 
  Descriptive Analysis (What happened?)
 
@@ -335,14 +335,14 @@ The inventory also showed that several products had low stock quantities and req
 
 
 
- Diagnostic Analysis (Why did it happen?)
+### Diagnostic Analysis (Why did it happen?)
 
 The higher sales were mainly driven by customer demand for frequently used electronic products.
 Products with low stock levels were those that experienced repeated purchases without timely restocking. 
 Supplier performance and purchasing patterns also influenced inventory availability.
 
 
-Prescriptive Analysis (What actions should be taken?)
+### Prescriptive Analysis (What actions should be taken?)
 
 The business should:
 
@@ -363,7 +363,7 @@ References
 
 
 
- Academic Integrity Statement
+### Academic Integrity Statement
 
 I declare that this project represents my own original work completed for the Database Programming course.
 All SQL scripts, database design, analyses, and documentation were prepared by me.
