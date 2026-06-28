@@ -14,6 +14,12 @@ Instructor: Eric Maniraguha
 
 ---
 
+### Business Value
+
+The Inventory Management System helps a business organize and manage information about products, suppliers, customers, and orders. It enables staff to track inventory levels, monitor supplier information, record customer purchases, and generate reports for decision-making. By storing data in a structured relational database, the business can reduce errors, improve efficiency, prevent stock shortages, and make better inventory management decisions.
+
+
+
  Business Problem
 
 Inventory management is essential for businesses that buy and sell products. Without a well-designed database, organizations may experience stock shortages, duplicate records, poor supplier management, and inaccurate sales reports.
